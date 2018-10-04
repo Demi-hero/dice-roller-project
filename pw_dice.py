@@ -30,6 +30,7 @@ def d4_appraisal(value):
             return face_value[5]
     except ValueError: 
         print("was not supplied an intiger")
+
 def d8() :
     return randint(1,8)
 
@@ -76,7 +77,7 @@ def roller(Nofd4 = 0, Nofd8 = 0, Nofd12 = 0) :
         d8_values = [d8() for i in range(Nofd8)]
         d12_values = [d12() for i in range(Nofd12)]
         
-        print("d4 Results")
+        print("d4 Results:")
         for value in d4_values:
             result = d4_appraisal(value)
             print(result)
