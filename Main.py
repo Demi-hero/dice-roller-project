@@ -4,6 +4,7 @@ Created on Wed Oct  3 15:11:05 2018
 
 """   
     # TO DO
+    # Do some input cleanseing 
     # Get a python shell that isnt anaconda
     # Learn how to make a GUI
     # print the sprites for the required value in a GUI
