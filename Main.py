@@ -2,13 +2,13 @@
 """
 Created on Wed Oct  3 15:11:05 2018
 
-@author: Nathan
 """   
     # TO DO
-    # Find the number of dice and their size to roll
-    # Generate a random number from 1 - x
-    # Compare output with dice symbols
-    # print the sprites for the required value
+    # Do some input cleanseing 
+    # Get a python shell that isnt anaconda
+    # Learn how to make a GUI
+    # print the sprites for the required value in a GUI
+    
 
 import pw_dice as dice
 

@@ -2,7 +2,6 @@
 """
 Created on Wed Oct  3 15:28:41 2018
 
-@author: Nathan
 """
 
 from random import randint
