@@ -2,7 +2,6 @@
 """
 Created on Wed Oct  3 15:11:05 2018
 
-@author: Nathan
 """   
     # TO DO
     # Find the number of dice and their size to roll
