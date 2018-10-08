@@ -17,9 +17,7 @@ face_value ={
             7: "Opportunity-Vital" }
 
 def d4() :
-   return randint(1,4)
-
-def d4_appraisal(value):
+    value = randint(1,4)
     try: 
         if value < 3:
             return face_value[1]
@@ -31,9 +29,7 @@ def d4_appraisal(value):
         print("was not supplied an intiger")
 
 def d8() :
-    return randint(1,8)
-
-def d8_appraisal(value):
+    value = randint(1,8)
     try:
         if value < 5:
             return face_value[1]
@@ -50,10 +46,7 @@ def d8_appraisal(value):
         
         
 def d12() :
-    return randint(1,12)
-
-
-def d12_appraisal(value):
+    value = randint(1,12)
     try:
         if value < 5:
             return face_value[2]
@@ -77,16 +70,13 @@ def roller(Nofd4 = 0, Nofd8 = 0, Nofd12 = 0) :
         d12_values = [d12() for i in range(Nofd12)]
         
         print("d4 Results:")
-        for value in d4_values:
-            result = d4_appraisal(value)
+        for result in d4_values:
             print(result)
         print ("d8 Results")
-        for value in d8_values:
-            result = d8_appraisal(value)
+        for result in d8_values:
             print(result)
         print ("d12 results")
-        for value in d12_values:
-            result = d12_appraisal(value)
+        for result in d12_values:
             print(result)
             
 
